@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "matrix-loading"
+version = "0.1.0"
+description = "Exercise 1: package management with pip and Poetry"
+authors = ["oused-da <oused-da@student.1337.ma>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
